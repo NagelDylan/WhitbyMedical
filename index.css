@@ -1,0 +1,458 @@
+.whitby-medical-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.top-logo {
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ECF0F8;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-image: url(/Images/doctor-background.jpeg);
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome {
+    padding-left: 40px;
+}
+
+.welcome-buttons {
+    margin-top: 100px;
+}
+
+.container a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    font-size: 25px;
+    border: 2px solid #457ABB;
+    font-weight: 500;
+}
+
+.hours-container-button {
+    color: #ECF0F8;
+    background-color: #457ABB;
+    margin-right: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.hours-container-button:hover {
+    background-color: #305483;
+    border-color: #305483
+}
+
+.location-container-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.location-container-button:hover {
+    background-color: #305483;
+    border-color: #305483;
+    color: white;
+}
+
+.container h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -1px;
+    padding-bottom: 9px;
+}
+
+.container h2 {
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+.our-health-clinic {
+    padding-top: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: normal;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.our-health-clinic h1 {
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -1px;
+    padding-bottom: 9px;
+    color: #33363E;
+}
+
+.our-health-clinic h2 {
+    font-size: 18px;
+    color: #33363E;
+    margin-left: 30px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.walking-icon {
+    width: 20px;
+    height: 40px;
+    background-color: #ECF0F8;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number-one {
+    font-size: 30px;
+    color: #43464E;
+    padding: 16px;
+    background-color: #ECF0F8;
+    border-radius: 100%;
+    font-weight: 600;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clinic-specialty {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #C1C1C2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.clinic-specialty h2 {
+    color: #33363E;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.line {
+    width: 200px;
+    border-top: 2px solid #C1C1C2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clinic-specialty h3 {
+    color: #797979;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hours-container {
+    width: 300px;
+    margin: 5px;
+}
+
+.hours-container div:nth-of-type(2n) {
+    background-color: #457ABB;
+    padding: 10px;
+}
+
+.hours-container div:nth-of-type(2n + 1) {
+    background-color: #215087;
+    padding: 10px;
+}
+
+#hours-title {
+    background-color: #D8EAFF;
+}
+
+.hours-and-location-container {
+    display: flex;
+
+    background-color: #ECF0F8;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-around;
+
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.location-container {
+    width: 300px;
+    background-color: #D8EAFF;
+    height: 400px;
+    margin: 5px;
+}
+
+
+.hours-and-location-container h1 {
+    font-weight: 900;
+    color: #457ABB;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.hours-and-location-container h2 {
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+}
+
+.hours-and-location-container h3 {
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.map-background {
+    background-color: #457ABB;
+    width: 100%;
+    height: 86%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#extra-info {
+    background-color: #D8EAFF;
+    margin-top: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+#extra-info a {
+    color: #457ABB;
+    font-weight: 600;
+}
+
+li {
+    list-style: circle;
+}
+
+#extra-info ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#location-link {
+    text-decoration: underline;
+}
+
+#location-title {
+    padding-top: 22px;
+}
+
+#extra-info h1 {
+    font-weight: 600;
+}
+
+.make-appointment-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #457ABB;
+    color: white;
+    text-align: center;
+}
+
+.make-appointment-container a {
+    color: white;
+}
+
+.make-appointment-container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.make-appointment-container h2 {
+    font-weight: 400;
+}
+
+.meet-our-team {
+    padding: 30px;
+    padding-left: 50px;
+}
+
+.meet-our-team h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #33363E;
+    margin-bottom: 40px;
+}
+
+.meet-our-team h2 {
+    color: #33363E;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.meet-our-team img {
+    margin-bottom: 10px;
+}
+
+.meet-our-team h3 {
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+}
+
+.meet-our-team ul {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.team-flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.seperation-line {
+    margin: 40px 0;
+    width: 90vw;
+    border-bottom: 1.5px solid #C1C1C2;
+}
+
+.team-member img {
+    width: 154px;
+    height: 154px;
+}
+
+.specialties {
+    background-color: #457ABB;
+    display: flex;
+    color: #ECF0F8;
+    padding: 20px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.specific-specialty h1 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+.specific-specialty h2 {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.specific-specialty {
+    width: 250px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.specialties img {
+    height: 70px;
+}
+
+.specialties a {
+    color: white;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer a {
+    color: black;
+}
+
+footer h1 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer h2 {
+    line-height: 20px;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-to{
+    scroll-margin-top: 100px;
+}
