@@ -219,7 +219,6 @@ nav {
 
 .hours-and-location-container {
     display: flex;
-
     background-color: #ECF0F8;
 
     padding-top: 60px;
@@ -453,6 +452,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.scroll-to{
+.scroll-to {
     scroll-margin-top: 100px;
 }
