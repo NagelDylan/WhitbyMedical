@@ -136,6 +136,8 @@ nav {
     display: flex;
     justify-content: space-around;
     padding-bottom: 60px;
+    max-width: 1600px;
+    align-self: center;
 }
 
 .walking-icon {
@@ -176,6 +178,8 @@ nav {
     margin: 10px;
     max-width: 600px;
     text-align: center;
+    height: 200px;
+    justify-content: center;
 }
 
 .clinic-specialty h2 {
@@ -330,6 +334,9 @@ li {
 .meet-our-team {
     padding: 30px;
     padding-left: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .meet-our-team h1 {
@@ -337,6 +344,7 @@ li {
     font-size: 30px;
     color: #33363E;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .meet-our-team h2 {
