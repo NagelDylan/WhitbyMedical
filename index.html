@@ -1,1 +1,329 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitby Medical</title>
+
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top-logo">
+            <img class="whitby-medical-logo" src="Images/whitby-medical-logo.png" alt="Whitby Medical Logo">
+
+            WHITBY MEDICAL
+        </div>
+
+        <nav>
+            <a href="#about-us">ABOUT</a>
+            <a href="#location">LOCATION</a>
+            <a href="#hours">HOURS</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Navigation</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#about-us">ABOUT</a>
+                    <a href="#location">LOCATION</a>
+                    <a href="#hours">HOURS</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+
+    <div class="container-top-margin"></div>
+
+    <div class="container">
+        <div class="welcome">
+            <h1>
+                Welcome to Whitby Medical
+            </h1>
+            <h2>
+                We are committed to your health
+            </h2>
+        </div>
+
+        <div class="welcome-buttons welcome">
+            <a href="#hours" class="hours-container-button">Hours</a>
+            <a href="#location" class="location-container-button">Location</a>
+        </div>
+    </div>
+
+    <div class="ohc-top-margin"></div>
+
+    <div class="our-health-clinic">
+        <h1 id="about-us" class="scroll-to">Our Health Clinic</h1>
+
+        <h2>
+            Discover exceptional care and unparalleled convenience with our top-rated medical services.
+        </h2>
+    </div>
+
+    <div class="about-info">
+        <div class="clinic-specialty">
+            <div class="number-one">
+                #1
+            </div>
+
+            <div class="line">
+
+            </div>
+
+            <h2>
+                #1 walk-in clinic
+            </h2>
+
+            <h3>
+                Voted #1 walk-in clinic in Duham by Durham Parent Reader's Choice Awards
+            </h3>
+        </div>
+
+        <div class="clinic-specialty">
+            <img class="walking-icon" src="Images/walking-icon.png" alt="Walking Icon">
+
+            <div class="line">
+
+            </div>
+
+            <h2>
+                Walk-ins are always available
+            </h2>
+
+            <h3>
+                See below for updated hours
+            </h3>
+        </div>
+    </div>
+
+    <div class="hours-and-location-container">
+        <div class="hours-container scroll-to" id="hours">
+            <div id="hours-title">
+                <h1>OPENING HOURS</h1>
+            </div>
+            <div>
+                <h2>MON</h2>
+                <h3>9:00am - 7:00pm</h3>
+            </div>
+            <div>
+                <h2>TUE</h2>
+                <h3>9:00am - 7:00pm</h3>
+            </div>
+            <div>
+                <h2>WED</h2>
+                <h3>9:00am - 7:00pm</h3>
+            </div>
+            <div>
+                <h2>THU</h2>
+                <h3>9:00am - 2:00pm</h3>
+            </div>
+            <div>
+                <h2>FRI</h2>
+                <h3>9:00am - 2:00pm</h3>
+            </div>
+            <div>
+                <h2>SAT</h2>
+                <h3>CLOSED</h3>
+            </div>
+            <div>
+                <h2>SUN</h2>
+                <h3>CLOSED</h3>
+            </div>
+
+            <div id="extra-info">
+                <h1>UPDATED HOURS:</h1>
+
+                <!-- USE THIS IF THERE ARE NO HOUR CHANGES -->
+                <!-- If not, click "ctrl /"" on the line below -->
+                <p>No current changes</p>
+
+                <!-- USE THIS IF THERE ARE HOUR CHANGES -->
+                <ul>
+                    <!-- TO USE, ENTER <li> in between the <ul> and </ul>, THEN THE INFO YOU WANT, THEN </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="location-container scroll-to" id="location">
+            <h1 id="location-title">LOCATION</h1>
+            <div class="map-background">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91998.34029529177!2d-79.01413836348975!3d43.898340919318485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d51eedd5698409%3A0xfa08a8308d03831d!2sWhitby%20Medical%20Walk%20In%20Clinic!5e0!3m2!1sen!2sca!4v1692311521912!5m2!1sen!2sca"
+                    width="280" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div id="extra-info">
+                <h1><a href="https://goo.gl/maps/uW2ddDMvBkZ37mPM7">3910 Brock St N Unit 4, Whitby, ON L1R 3E1</a></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="make-appointment-container">
+        <h1>To make an appointment <a href="https://goo.gl/maps/uW2ddDMvBkZ37mPM7">visit the clinic</a></h1>
+
+        <h2>In case of emergency or complicated cases, please call 911 or go to the emergency room at the nearest
+            hospital</h2>
+    </div>
+
+    <div class="meet-our-team">
+        <h1>Meet Our Team</h1>
+
+        <div class="team-flex-container">
+            <div class="team-member">
+                <img src="Images/doctor-icon.png" alt="Doctor Icon">
+                <h2>Daniel Nagel (He/Him)</h2>
+                <h3>Bsc, MD, CCFP</h3>
+                <ul>
+                    <li>UofT- Bachelor of Science</li>
+                    <li>UofT Faculty of Medicine = Doctorate of Medicine</li>
+                    <li>McGill University - Family Medicine Residency</li>
+                </ul>
+            </div>
+
+            <div class="seperation-line-small"></div>
+
+            <div class="team-member">
+                <img src="Images/doctor-icon.png" alt="Doctor Icon">
+                <h2>Ken Daiter (He/Him)</h2>
+                <h3>Bsc, MD, CCFP</h3>
+                <ul>
+                    <li>Western University - Bachelor of Science</li>
+                    <li>UofT Faculty of Medicine = Doctorate of Medicine</li>
+                    <li>UofT - Family Medicine Residency</li>
+                </ul>
+            </div>
+
+            <div class="seperation-line"></div>
+
+            <div class="team-member">
+                <img src="Images/nurse-icon.png" alt="Nurse Icon">
+                <h2>Maria Warren (She/Her)</h2>
+                <h3>RPN</h3>
+                <ul>
+                    <li>Loyalist College 1986 - Registered Practical Nurse</li>
+                </ul>
+            </div>
+
+            <div class="seperation-line-small"></div>
+
+            <div class="team-member">
+                <img src="Images/nurse-icon.png" alt="Nurse Icon">
+                <h2>Lina Hall (She/Her)</h2>
+                <h3>RPN</h3>
+                <ul>
+                    <li>Georgian College 1986 - Registered Practical Nurse</li>
+                </ul>
+            </div>
+
+            <div class="seperation-line"></div>
+
+            <div class="team-member">
+                <img src="Images/nurse-icon.png" alt="Nurse Icon">
+                <h2>Sherry Laserna (She/Her)</h2>
+                <h3>Physician Assistant</h3>
+            </div>
+
+            <div class="seperation-line-small"></div>
+
+            <div class="team-member">
+                <img src="Images/receptionist-icon.png" alt="Receptionist Icon">
+                <h2>Amanda Long (She/Her)</h2>
+                <h3>Receptionist</h3>
+            </div>
+
+            <div class="seperation-line"></div>
+
+            <div class="team-member">
+                <img src="Images/receptionist-icon.png" alt="Receptionist Icon">
+                <h2>Courtney McNeil (She/Her)</h2>
+                <h3>Receptionist</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="specialties scroll-to" id="services">
+        <div class="specific-specialty">
+            <img src="Images/allergy-icon.svg" alt="Alergy Icon">
+            <h1>Allergy Shots</h1>
+            <h2>Allergy shots help your body get used to allergens, the things that trigger an allergic reaction.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/flu-icon.svg" alt="Flu Icon">
+            <h1>Flu Shots</h1>
+            <h2>Influenza or flu vaccines are a safe and effective way to stay healthy and prevent illness.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/immunization-icon.svg" alt="Immunization Icon">
+            <h1>Immunizations</h1>
+            <h2>Immunizations protect against several serious, life-threatening infectious diseases.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/text-box-icon.svg" alt="STI Icon">
+            <h1>STI Counselling</h1>
+            <h2>Good counselling for people infected with a STI helps them comply with treatment and understand their
+                choices.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/wart-icon.svg" alt="Wart Icon">
+            <h1>Wart Treatment</h1>
+            <h2>We treat your warts in the most effective, quickest way possible.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/pregnant-icon.svg" alt="Wart Icon">
+            <h1>Contraception Councelling</h1>
+            <h2>We offer birth control, pregnancy testing and counselling.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/car-icon.svg" alt="Wart Icon">
+            <h1>Driver's Physicals</h1>
+            <h2>Walk in to our clinic for driver's physicals. Many professional drivers are required to get physicals on
+                a regular basis.</h2>
+        </div>
+
+        <div class="specific-specialty">
+            <img src="Images/pharmacy-icon.png" alt="Wart Icon">
+            <h1>Pharmacy</h1>
+            <h2>Fill your prescriptions safely and fast next door at <a
+                    href="https://goo.gl/maps/ViQA7o3nz8q4826K9">Whitby Medical Pharmacy</a>. All Drug plans accepted.
+            </h2>
+        </div>
+    </div>
+
+    <footer id="contact" class="scroll-to">
+        <h1>Contact Us:</h1>
+
+        <div class="footer-flex-container">
+            <h2>
+                Adress: <a href="https://goo.gl/maps/uW2ddDMvBkZ37mPM7">3910 Brock St N Unit 4, Whitby, ON L1R 3E1</a>
+                <br>
+                Phone number: <a href="tel:+9054449493">(905) 444-9493</a>
+            </h2>
+            <h2>
+                <br>
+                © 2023 Whitby. All Rights Reserved.
+            </h2>
+        </div>
+    </footer>
+
+    <script src="act.js"></script>
+</body>
+
+</html>
