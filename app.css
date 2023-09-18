@@ -138,6 +138,8 @@ nav {
     padding-bottom: 60px;
     max-width: 1600px;
     align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .walking-icon {
@@ -222,9 +224,12 @@ nav {
     background-color: #D8EAFF;
 }
 
+.hours-and-location-background{
+    background-color: #ECF0F8;
+}
+
 .hours-and-location-container {
     display: flex;
-    background-color: #ECF0F8;
 
     padding-top: 60px;
     padding-bottom: 60px;
@@ -234,6 +239,10 @@ nav {
 
     text-align: center;
     flex-wrap: wrap;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .location-container {
