@@ -27,7 +27,7 @@ const clinicInfo = {
 
 const PageWrapper = styled.div`
   background-color: ${BG_COLOR};
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding: 5%;
   box-sizing: border-box;
