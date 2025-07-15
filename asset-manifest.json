@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WhitbyMedical/static/css/main.9fb99366.css",
-    "main.js": "/WhitbyMedical/static/js/main.0707c4d7.js",
-    "static/js/453.16f0ec37.chunk.js": "/WhitbyMedical/static/js/453.16f0ec37.chunk.js",
-    "static/media/doctors.png": "/WhitbyMedical/static/media/doctors.4a492b6d2179705f78a5.png",
-    "index.html": "/WhitbyMedical/index.html",
-    "main.9fb99366.css.map": "/WhitbyMedical/static/css/main.9fb99366.css.map",
-    "main.0707c4d7.js.map": "/WhitbyMedical/static/js/main.0707c4d7.js.map",
-    "453.16f0ec37.chunk.js.map": "/WhitbyMedical/static/js/453.16f0ec37.chunk.js.map"
+    "main.css": "/static/css/main.9fb99366.css",
+    "main.js": "/static/js/main.4004f926.js",
+    "static/js/453.16f0ec37.chunk.js": "/static/js/453.16f0ec37.chunk.js",
+    "static/media/doctors.png": "/static/media/doctors.4a492b6d2179705f78a5.png",
+    "index.html": "/index.html",
+    "main.9fb99366.css.map": "/static/css/main.9fb99366.css.map",
+    "main.4004f926.js.map": "/static/js/main.4004f926.js.map",
+    "453.16f0ec37.chunk.js.map": "/static/js/453.16f0ec37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fb99366.css",
-    "static/js/main.0707c4d7.js"
+    "static/js/main.4004f926.js"
   ]
 }
