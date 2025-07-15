@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WhitbyMedical/static/css/main.f855e6bc.css",
+    "main.css": "/WhitbyMedical/static/css/main.9fb99366.css",
     "main.js": "/WhitbyMedical/static/js/main.0707c4d7.js",
     "static/js/453.16f0ec37.chunk.js": "/WhitbyMedical/static/js/453.16f0ec37.chunk.js",
     "static/media/doctors.png": "/WhitbyMedical/static/media/doctors.4a492b6d2179705f78a5.png",
     "index.html": "/WhitbyMedical/index.html",
-    "main.f855e6bc.css.map": "/WhitbyMedical/static/css/main.f855e6bc.css.map",
+    "main.9fb99366.css.map": "/WhitbyMedical/static/css/main.9fb99366.css.map",
     "main.0707c4d7.js.map": "/WhitbyMedical/static/js/main.0707c4d7.js.map",
     "453.16f0ec37.chunk.js.map": "/WhitbyMedical/static/js/453.16f0ec37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
+    "static/css/main.9fb99366.css",
     "static/js/main.0707c4d7.js"
   ]
 }
